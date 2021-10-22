@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  background-color: maroon;
+}
+
+.content {
+  background-color: black;
+  color: white;
+}
+
+#quote {
+  color: pink;
+  background-color: green;
+  width: 50vw;
+  height: 50vw;
+}
+
+.container {
+  background-color: aqua;
+  height: 25vh;
+  width: 25vw;
+}
+
+.child {
+  background-color: purple;
+  height: 50%;
+}
+
+.center_container {
+  /* style */
+  background-color: orange;
+  margin: 100px 0;
+  height: 500px;
+
+  /************** center children of div ****************/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /***********************************************/
+}
+
+.center_child {
+  /* style */
+  background-color: chartreuse;
+  text-align: center;
+  width: 500px;
+  height: 250px;
+}
